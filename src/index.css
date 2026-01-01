@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Puedes agregar estilos globales aquí si quieres */
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
