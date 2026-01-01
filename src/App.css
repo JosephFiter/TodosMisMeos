@@ -394,3 +394,56 @@
   opacity: 1;
   border-color: #ef4444;
 }
+
+
+
+
+/* --- ESTILOS PARA CONFIGURACIÓN / HISTORIAL --- */
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 60vh;
+  overflow-y: auto; /* Scroll si hay muchos */
+  padding-right: 5px;
+}
+
+.history-item {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.history-item:hover {
+  background-color: #334155;
+}
+
+.history-date {
+  color: #e2e8f0;
+  font-weight: 500;
+  font-family: monospace;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: 1px solid #ef4444;
+  color: #ef4444;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #ef4444;
+  color: white;
+}
