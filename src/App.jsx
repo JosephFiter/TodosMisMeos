@@ -239,6 +239,8 @@ function App() {
             ¿Alguna vez te preguntaste si fuiste al baño en todos los minutos del dia? 
             <br /> {/* <--- Esto hace el salto de línea */}
             Una pagina para registrar todos los minutos en los que vas al baño
+                        <br /> {/* <--- Esto hace el salto de línea */}
+          Industrias Fiter
           </p>          <div className="divider"></div>
           <button className="google-btn" onClick={handleLogin}><span>Continuar con Google</span></button>
         </div>
