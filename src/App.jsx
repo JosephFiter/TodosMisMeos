@@ -57,7 +57,7 @@ function App() {
   const BotonView = () => (
     <div className="tab-content centered-content">
       <div className="big-button-container">
-        <button className="main-action-btn" onClick={handlePressButton}>PULSAR</button>
+        <button className="main-action-btn" onClick={handlePressButton}>Fui al baño</button>
         <p className="hint-text">¡Completa todos los minutos del día!</p>
       </div>
     </div>
@@ -162,7 +162,7 @@ function App() {
         {/* GRID DE ESTADÍSTICAS */}
         <div className="stats-grid">
           <div className="stat-card">
-            <h3>Total Clics</h3>
+            <h3>Total de meos</h3>
             <p className="stat-number">{stats.total}</p>
           </div>
           <div className="stat-card">
@@ -230,8 +230,8 @@ function App() {
     return (
       <div className="app-container">
         <div className="login-card">
-          <h1 className="title">DevSpace</h1>
-          <p className="description">Inicia sesión para jugar.</p>
+          <h1 className="title">TODOS MIS MEOS</h1>
+          <p className="description">Una pagina para registrar todos los minutos en los que vas al baño</p>
           <div className="divider"></div>
           <button className="google-btn" onClick={handleLogin}>
             <span>Continuar con Google</span>
